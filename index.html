@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Home — Newlife</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>a new web projecct ive been working all day time to pack up and send the code in</h1>
+    <nav class="sidebar" aria-label="Main navigation">
+        <div class="sidebar__brand">Newlife</div>
+        <a href="index.html" class="sidebar__btn sidebar__btn--active">Home</a>
+        <a href="about.html" class="sidebar__btn">About</a>
+        <a href="#projects" class="sidebar__btn">Projects</a>
+        <a href="#contact" class="sidebar__btn">Contact</a>
+        <a href="overview.md" class="sidebar__btn">Overview</a>
+    </nav>
+
+    <main class="main">
+        <h1>A new web project I've been working on all day — time to pack up and send the code in</h1>
+        <p>
+            Welcome to Newlife. Use the sidebar to explore the site, or jump straight to
+            the <a href="about.html">About</a> page to learn more.
+        </p>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>Project listings will go here. Each item can link to demos, repos, or case studies.</p>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Contact details or a form can be added here later.</p>
+        </section>
+    </main>
 </body>
 </html>
